@@ -33,7 +33,6 @@ if((isset($_GET['user']) && $_GET["user"] == "register") && !isset($_SESSION["lo
 				fclose($register);
 				header("Location: ?user=login");
 				die();
-
 			endif; 
 		endif;
 	endif;
